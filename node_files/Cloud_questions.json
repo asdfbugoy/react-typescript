@@ -1,0 +1,61 @@
+{
+	"maxProfileSize": 100,
+	"questions": [
+		{
+			"id": 17,
+			"sn": 1,
+			"question": "Please select your chosen public cloud provider.",
+			"dataType": "MultiLevel",
+			"tooltip": "",
+			"image": "",
+			"label": "",
+			"selectable": true,
+			"sourceList": [
+				{
+					"id": "MS_AWS",
+					"sn": 0,
+					"question": "",
+					"dataType": "Dropdown",
+					"tooltip": "Amazon Web Services",
+					"image": "/SingtelGO/img/aws-logo.png",
+					"label": "",
+					"selectable": true,
+					"sourceList": [
+						{
+							"value": "pid1325374",
+							"label": "Virtual Machine",
+							"tooltip": "Some words...",
+							"image": "",
+							"selectable": true
+						},
+						{
+							"value": "pid1325374",
+							"label": "Fabric Management",
+							"tooltip": "Some words...",
+							"image": "",
+							"selectable": true
+						},
+						{
+							"value": "pid1325374",
+							"label": "Comming Soon",
+							"tooltip": "Some words...",
+							"image": "",
+							"selectable": false
+						}
+					]
+				},
+				{
+					"id": "MS_AZURE",
+					"sn": 0,
+					"question": "",
+					"dataType": "Dropdown",
+					"tooltip": "",
+					"image": "/SingtelGO/img/microsoft-logo.png",
+					"label": "Coming Soon",
+					"selectable": false,
+					"sourceList": []
+				}
+			]
+		}
+	]
+}

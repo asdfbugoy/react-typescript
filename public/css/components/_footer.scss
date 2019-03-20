@@ -1,0 +1,35 @@
+footer.footer {
+	padding: 20px 0px;
+	font-size: $footer-text-size;
+	.copyright {
+		color: $dark-gray;
+		a {
+			color: $dark-gray;
+			font-size: $footer-text-size;
+		}
+	}
+}
+
+.error-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: $white;
+	text-align: center;
+	padding: 20px 0px;
+
+	font-size: $footer-text-size;
+	.copyright {
+		color: $dark-gray;
+		a {
+			color: $dark-gray;
+			font-size: $footer-text-size;
+		}
+	}
+}
+
+.before-footer {
+	height: 20px;
+	background-color: $very-light-gray;
+}

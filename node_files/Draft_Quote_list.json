@@ -1,0 +1,38 @@
+[
+	{
+		"uuid": "6c16df40-d4cc-4098-b9a2-4ab820d21da9",
+		"accountUEN": "ST000682",
+		"accountName": "COFFEE SHOP @HUB",
+		"am": "qham1geb",
+		"createdDate": "2019-01-22T11:39:35",
+		"lastModifiedDate": "2019-01-22T11:42:28",
+		"rc": 76,
+		"otc": 0,
+		"duration": 36,
+		"durationUnit": "Month"
+	},
+	{
+		"uuid": "8fdefb39-dd45-4421-bc46-617916463149",
+		"accountUEN": "ST000682",
+		"accountName": "COFFEE SHOP @HUB",
+		"am": "qham1geb",
+		"createdDate": "2019-01-18T16:13:02",
+		"lastModifiedDate": "2019-01-18T16:15:00",
+		"rc": 292,
+		"otc": 0,
+		"duration": 36,
+		"durationUnit": "Month"
+	},
+	{
+		"uuid": "211a1214-db2f-48ac-aa62-99a95c458ada",
+		"accountUEN": "ST000682",
+		"accountName": "COFFEE SHOP @HUB",
+		"am": "qham1geb",
+		"createdDate": "2019-01-18T14:46:59",
+		"lastModifiedDate": "2019-01-18T14:56:31",
+		"rc": 76,
+		"otc": 0,
+		"duration": 36,
+		"durationUnit": "Month"
+	}
+]

@@ -1,0 +1,73 @@
+header.header {
+	width: auto;
+	border-top: 5px solid $red;
+	padding: 2px 0px;
+	line-height: 51px;
+	font-weight: bold;
+
+	.logo {
+		width: 92px;
+		height: 51px;
+		background-image: url('#{$img}/singtel-logo.png');
+	}
+	.pill {
+		position: absolute;
+		right: -10px;
+		top: -10px;
+		font-size: $s;
+	}
+	.navbar-brand {
+		width: 100%;
+		left: 0;
+		text-align: center;
+		margin: auto;
+	}
+	.navbar-cart {
+		display: block;
+		right: 20px;
+		top: 15px;
+		text-align: right;
+		.a {
+			color: black;
+		}
+	}
+
+	.navbar-right {
+		margin: 0;
+	}
+
+	.navbar-right > li,
+	.navbar-header {
+		float: left;
+	}
+
+	.navbar-right > li > a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.collapsing,
+	.collapse.in {
+		top: 50px;
+		position: absolute;
+		width: 100%;
+	}
+
+	//mobile version
+	.navbar-brand-mobile {
+		left: calc(50% - 45px);
+		padding: 0;
+	}
+	.navbar-cart-mobile {
+		left: calc(100% - 70px);
+		padding: 0;
+	}
+
+	.custom-toggler.navbar-toggler {
+		border-color: transparent;
+	}
+
+	.custom-toggler .navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+}

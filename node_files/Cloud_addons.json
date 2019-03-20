@@ -1,0 +1,16 @@
+[
+	{
+		"id": "MIG",
+		"title": "AWS Migration",
+		"description": "Make it easy to migrate your Virtual Machines to AWS 2\r\nSome caption to describe about this service 2",
+		"dataType": "Number",
+		"quantity": 1
+	},
+	{
+		"id": "SEC",
+		"title": "AWS Security Management",
+		"description": "Make it easy to migrate your Virtual Machines to AWS 1\r\nSome caption to describe about this service 1\r\n",
+		"dataType": "checkbox",
+		"quantity": 1
+	}
+]

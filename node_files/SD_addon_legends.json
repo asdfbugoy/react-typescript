@@ -1,0 +1,37 @@
+[
+	{
+		"title": "Advance Security",
+		"content": "Enhance you security with Anti-virus, Anti-Malware, Content Filtering, Intrusion Detection and Geograpy based firewall by upgrading your license to an Advanced Security License.",
+		"pic_type": "PIC_AS"
+	},
+	{
+		"title": "Wireless Access Point",
+		"content": "Wireless Access Point. Add on wireless access points to increase your WiFi coverage.",
+		"more": "Each Wireless Access Point comes with onsite installation, 100m of cabling for connection between Access Point and POE Switch, 24x7 active monitoring and Change Management to adjust the configurations of your access points.\r\n\r\nWe recommend the following based on the best practices. \r\n- Meeting Rooms: one access point for each meeting room . \r\n- Large Open Spaces: one access point per 100 square meter.",
+		"pic_type": "PIC_WAP"
+	},
+	{
+		"title": "Switch Upgrade",
+		"content": "Upgrade your Switch model if more LAN ports are required, where 1 LAN Port is used for 1 connection to the network.  ",
+		"more": "<Options>\r\n- MS-120.8 contains 8 LAN Ports and 2x1G SFP\r\n- MS-120.24 contains 24 LAN Ports, 4x1G SPF\r\n- MS-120.48 contains 48 LAN Ports, 4x1G SPF",
+		"pic_type": "PIC_SWITCH"
+	},
+	{
+		"title": "Resilience Switch",
+		"content": "Improve your network resiliency by adding Resilience Switch(s).  Our Switches can be deployed either via physical or virtual stacking.",
+		"more": "Comes with onsite installation, 24x7 active monitoring and change management.\r\n\r\nResilience Switch must be deployed together with Internet Gateway.",
+		"pic_type": "PIC_RSWITCH"
+	},
+	{
+		"title": "Security Camera",
+		"content": "Improve physical security and enjoy useful analytics by adding Security Camera with local storage to your SD-LAN network.",
+		"more": "Each Security Camera comes with onsite installation with 100m of cabling for connection of Camera to your POE Switch, 24x7 active monitoring and change management to adjust the settings of your cameras.\r\n\r\nAll video footages are stored locally in the camera only, allowing the camera to be placed in your network without significant increase in bandwidth usage.  Our security camera comes with video analytics, from motion detection to heat maps.\r\n\r\nMinimize the number of Security Cameras required with our wide viewing angle (Horizontal 114 & Vertical 61 degrees) .\r\n\r\nNote: Video footage is non real time when end user access the video footage through wifi connection or external network. ",
+		"pic_type": "PIC_CAM"
+	},
+	{
+		"title": "Extra Cabling per 200m (Fibre)",
+		"content": "6 Core Multi mode fiber. Your current solution comes with 200m of cabling if additional floor is selected.  Select this option if additional cabling is required between the floors.",
+		"more": "All cabling consist of the supply and installation of 6 core Multi mode fiber with PVC conduit at height of less than 3.3m. Please contact us for evaluation if structure cabling or installation of cabling that is more than 3.3m in height.",
+		"pic_type": "PIC_CAB"
+	}
+]

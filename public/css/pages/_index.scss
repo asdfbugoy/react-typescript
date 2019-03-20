@@ -1,0 +1,281 @@
+.index {
+	.number-icon {
+		height: 48px;
+		width: 48px;
+		border: 2px solid $red;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 48px;
+		font-size: $h5;
+		color: $red;
+		font-weight: 700;
+	}
+
+	.number-icon-center {
+		height: 48px;
+		width: 48px;
+		border: 2px solid $red;
+		border-radius: 50%;
+		text-align: center;
+		margin: auto;
+		line-height: 48px;
+		font-size: $h5;
+		color: $red;
+		font-weight: 700;
+	}
+	.list-carousel {
+		.item {
+			border-left: 5px solid $dark-gray;
+			padding-left: 20px;
+			padding-bottom: 20px;
+			opacity: 0.5;
+			transition: opacity 1s ease-in-out;
+			.title {
+				font-family: 'MuseoMedium';
+				font-size: $h4;
+			}
+			&.active {
+				opacity: 1;
+				border-color: $red;
+				.title {
+					color: $red;
+				}
+			}
+			@include media-breakpoint-down(md) {
+				padding-left: 0px;
+				border-left: 0px none;
+				display: none;
+				&.active {
+					display: block
+				}
+			}
+		}
+	}
+
+	.advancedFeatureBox {
+		padding: 50px;
+		background-color: transparent;
+	}
+	.advancedFeatureBoxGray {
+		padding: 50px;
+		background-color: $very-light-gray;
+	}
+}
+
+.main-text {
+	display: flex;
+	align-items: center;
+}
+.img-container {
+	position: relative;
+	text-align: center;
+	color: white;
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 50%;
+	background-position: center center;
+	border-radius: 5px 5px 0 0;
+}
+.img-content {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+
+.main-banner {
+	background-image: url($index-banner-mobile);
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 0;
+	background-position: center center;
+}
+.banner-text {
+	font-size: 2rem;
+	text-align: left;
+	font-family: Museo;
+}
+
+.benefits-banner {
+	background-image: url($index-benefits-mobile);
+	background-size: cover;
+	background-color: #f2f7ec;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-bottom: 0;
+}
+/*smaller mobile potrait*/
+@media only screen and (max-width: 374px) {
+	.img-container {
+		padding-bottom: 65%;
+	}
+	.main-banner {
+		background-image: url($index-banner-mobile);
+		background-size: 100%;
+		padding-bottom: 95%;
+	}
+
+	.banner-text {
+		padding-top: 10%;
+		font-size: 1.5rem;
+		padding-bottom: 0;
+		text-align: center;
+	}
+
+	.benefits-banner {
+		background-image: url($index-benefits-mobile);
+		padding-bottom: 100%;
+	}
+}
+/*smaller mobile landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.img-container {
+		padding-bottom: 35%;
+	}
+	.main-banner {
+		background-image: url($index-banner-mobile);
+		background-size: 100%;
+		padding-bottom: 120%;
+	}
+
+	.banner-text {
+		padding-top: 10%;
+		font-size: 1.8rem;
+		padding-bottom: 0;
+		text-align: center;
+	}
+
+	.benefits-banner {
+		background-image: url($index-benefits-mobile);
+		padding-bottom: 100%;
+	}
+}
+/*standard mobile potrait*/
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+	.img-container {
+		padding-bottom: 65%;
+	}
+	.main-banner {
+		background-image: url($index-banner-mobile);
+		background-size: 100%;
+		padding-bottom: 95%;
+	}
+
+	.banner-text {
+		padding-top: 10%;
+		font-size: 1.8rem;
+		padding-bottom: 0;
+		text-align: center;
+	}
+
+	.benefits-banner {
+		background-image: url($index-benefits-mobile);
+		padding-bottom: 100%;
+	}
+}
+/*mobile landscape*/
+@media only screen and (min-width: 667px) and (max-width: 738px) {
+	.img-container {
+		padding-bottom: 35%;
+	}
+	.main-banner {
+		background-image: url($index-banner-tablet);
+		background-size: 100%;
+		padding-bottom: 60%;
+	}
+
+	.banner-text {
+		padding-top: 10%;
+		font-size: 2.8rem;
+		padding-bottom: 0;
+		text-align: left;
+	}
+
+	.benefits-banner {
+		background-image: url($index-benefits-tablet);
+	}
+}
+/*iPad potrait*/
+@media only screen and (min-width: 738px) and (max-width: 948px) {
+	.img-container {
+		padding-bottom: 35%;
+	}
+	.main-banner {
+		background-image: url($index-banner-tablet);
+		background-size: 100%;
+		padding-bottom: 60%;
+	}
+
+	.banner-text {
+		padding-top: 10%;
+		font-size: 2.9rem;
+		padding-bottom: 0;
+		text-align: left;
+	}
+
+	.benefits-banner {
+		background-image: url($index-benefits-tablet);
+	}
+}
+@media only screen and (min-width: 948px) and (max-width: 1024px) {
+	.main-banner {
+		background-image: url($index-banner-tablet);
+		background-size: 100%;
+		padding-bottom: 60%;
+	}
+	.banner-text {
+		padding-left: 5%;
+		padding-top: 10%;
+		font-size: 2.9rem;
+		padding-bottom: 0;
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+	.img-container {
+		padding-bottom: 70%;
+	}
+	.main-banner {
+		background-image: url($index-banner-tablet-landscape);
+		display: flex;
+		align-items: center;
+		padding-bottom: 0;
+		background-size: cover;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+
+	.banner-text {
+		padding-left: 50%;
+		font-size: 2.6rem;
+		padding-top: 0;
+		padding-bottom: 0;
+		text-align: left;
+	}
+	.benefits-banner {
+		background-image: url($index-benefits-tablet);
+	}
+}
+/*desktop*/
+@media only screen and (min-width: 1280px) {
+	.img-container {
+		padding-bottom: 50%;
+	}
+	.main-banner {
+		background-image: url($index-banner);
+		display: flex;
+		align-items: center;
+		padding-bottom: 0;
+		background-size: cover;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.banner-text {
+		font-size: 3.1rem;
+		padding-bottom: 0;
+		padding-left: 50%;
+		text-align: left;
+	}
+	.benefits-banner {
+		background-image: url($index-benefits);
+	}
+}

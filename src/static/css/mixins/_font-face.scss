@@ -1,0 +1,18 @@
+
+$fonts:'fonts';
+//$fonts: 'https://agile.ncs.com.sg/Everest2UI/styles/everest/' + $fonts;
+//$fonts: 'https://agiledev.ncs.com.sg/SingtelGO/styles/everest/' + $fonts;
+//$fonts: './../../styles/everest/' + $fonts;
+
+@mixin fontface($name, $style, $weight, $sourcename){
+    @font-face {
+        font-family: $name;
+        font-style: $style;
+        font-weight: $weight;
+        src: url($fonts + '\/' + $sourcename + '.eot');
+        src: url($fonts + '\/' + $sourcename + '.eot?#iefix') format('embedded-opentype'), 
+        url($fonts + '\/' + $sourcename + '.woff2') format('woff2'), 
+        url($fonts + '\/' + $sourcename + '.woff') format('woff'),
+        url($fonts + '\/' + $sourcename + '.ttf') format('truetype');
+    }
+}

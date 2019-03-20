@@ -1,0 +1,157 @@
+{
+	"maxProfileSize": 5,
+	"questions": [
+		{
+			"id": 21,
+			"sn": 1,
+			"question": "What is your premise type?",
+			"dataType": "Dropdown",
+			"tooltip": "",
+			"image": "",
+			"label": "",
+			"selectable": true,
+			"sourceList": [
+				{
+					"value": "VT_O",
+					"label": "Office",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "VT_RO",
+					"label": "Retail Outlet",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				}
+			],
+			"questionParts": [
+
+			]
+		},
+		{
+			"id": 22,
+			"sn": 2,
+			"question": "How many users to be connected at the time?",
+			"dataType": "Dropdown",
+			"tooltip": "",
+			"image": "",
+			"label": "",
+			"selectable": true,
+			"sourceList": [
+				{
+					"value": "NOU_1",
+					"label": "<50",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "NOU_2",
+					"label": "51-150",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "NOU_3",
+					"label": "151-250",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "NOU_4",
+					"label": "251-500",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				}
+			],
+			"questionParts": [
+
+			]
+		},
+		{
+			"id": 23,
+			"sn": 3,
+			"question": "How many floors does this premise have?",
+			"dataType": "Dropdown",
+			"tooltip": "",
+			"image": "",
+			"label": "",
+			"selectable": true,
+			"sourceList": [
+				{
+					"value": "NOF_1",
+					"label": "1 Floor",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "NOF_2",
+					"label": "2 Floors",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "NOF_3",
+					"label": "3 Floors",
+					"tooltip": "",
+					"image": "",
+					"selectable": true
+				}
+			]
+		},
+		{
+			"id": 24,
+			"sn": 4,
+			"question": "What is the size per floor?",
+			"dataType": "Dropdown",
+			"tooltip": "",
+			"image": "",
+			"label": "",
+			"selectable": true,
+			"sourceList": [
+				{
+					"value": "FS_1",
+					"label": "<50m²\r\n(<540 sqft)",
+					"tooltip": "Neighborhood shops/clinic",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "FS_2",
+					"label": "50 - 100m²\r\n(540 - 1080 sqft)",
+					"tooltip": "Typical fast food, coffee shop outlet, badminton court",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "FS_3",
+					"label": "101 - 250m²\r\n(1081 - 2690 sqft)",
+					"tooltip": "Yoga studio, gym room, tennis court, neighborhood playground",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "FS_4",
+					"label": "251 - 400m²\r\n(2691 - 4300 sqft)",
+					"tooltip": "Movie theater",
+					"image": "",
+					"selectable": true
+				},
+				{
+					"value": "FS_5",
+					"label": "401 - 650m²\r\n(4301 - 7000 sqft)",
+					"tooltip": "Football field",
+					"image": "",
+					"selectable": true
+				}
+			]
+		}
+	]
+}

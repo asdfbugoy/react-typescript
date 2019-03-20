@@ -1,0 +1,4 @@
+var settingsPath = 'src';
+scss.render({
+  includePaths: ['.', settingsPath],
+})

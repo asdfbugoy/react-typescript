@@ -1,0 +1,41 @@
+.panel {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15) !important;
+
+    .panel-heading{
+        cursor: pointer;
+    }
+    .panel-collapse {
+        overflow: hidden;
+        transition: height 0.3s ease-out;  
+    }
+    .panel-body{
+        border: none !important;
+    }
+}
+
+.pricesummary-mobile-card {
+    border: 2px $black;
+    background-repeat: no-repeat;
+    background-color: $white;
+    background-position: top right;
+    padding: 15px;
+    font-size:16px;
+}
+
+.pricesummary-mobile-card-body-title{
+    border: 1px $very-light-gray;
+    background-repeat: no-repeat;
+    background-color: $very-light-gray;
+    background-position: top right;
+    padding:10px;
+    padding-left:15px;
+    font-size: 16px;
+}
+
+.pricesummary-mobile-card-body{
+    border: 2px $black;
+    background-repeat: no-repeat;
+    background-color: $white;
+    background-position: top right;
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+{
+	"profiles": [
+		{
+			"pid": "FcG5psUddeaT0c9t91JFEA==",
+			"sn": 1,
+			"name": "Office",
+			"package": "Medium Package",
+			"summary": [
+				{
+					"id": "BASE_RC",
+					"value": "$790"
+				},
+				{
+					"id": "SUB_TOTAL",
+					"value": "$790"
+				},
+				{
+					"id": "NO_OF_SITE",
+					"value": "x 1"
+				},
+				{
+					"id": "GRAND_TOTAL",
+					"value": "$790"
+				}
+			]
+		}
+	],
+	"priceAttributes": [
+		{
+			"id": "BASE_RC",
+			"name": "Monthly Charge",
+			"isLeading": false
+		},
+		{
+			"id": "SUB_TOTAL",
+			"name": "Sub Total",
+			"isLeading": true
+		},
+		{
+			"id": "NO_OF_SITE",
+			"name": "No. of Sites",
+			"isLeading": false
+		},
+		{
+			"id": "GRAND_TOTAL",
+			"name": "Grand Total (Monthly charge)",
+			"isLeading": true
+		}
+	]
+}

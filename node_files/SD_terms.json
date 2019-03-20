@@ -1,0 +1,23 @@
+[
+	{
+		"duration": 12,
+		"unit": "Month",
+		"rc": 1589,
+		"currency": "SGD",
+		"default": false
+	},
+	{
+		"duration": 24,
+		"unit": "Month",
+		"rc": 1149,
+		"currency": "SGD",
+		"default": false
+	},
+	{
+		"duration": 36,
+		"unit": "Month",
+		"rc": 790,
+		"currency": "SGD",
+		"default": true
+	}
+]

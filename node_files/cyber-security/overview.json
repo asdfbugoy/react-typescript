@@ -1,0 +1,20 @@
+[{
+	"name": "Business Protect Web",
+	"items": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+	"inputType": "number"
+}, {
+	"name": "Business Protect EP",
+	"items": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+	"inputType": "checkbox"
+}, {
+	"name": "Trustwave SEG",
+	"items": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+}, {
+	"name": "SAE + Phishing",
+	"items": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+	"inputType": ""
+}, {
+	"name": "DDoS",
+	"items": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+	"inputType": ""
+}]

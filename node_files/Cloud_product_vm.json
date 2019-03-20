@@ -1,0 +1,179 @@
+{
+	"name": "MS-CLOUD-VM",
+	"title": "Manage Tiers for AWS",
+	"description": "",
+	"displayType": "grid",
+	"products": [
+		{
+			"pid": "MSCLOUD_000001",
+			"name": "Stateless",
+			"sn": "2",
+			"qty": 0,
+			"dataType": "number",
+			"label": "Stateless",
+			"description": "",
+			"features": [
+				{
+					"id": 1,
+					"label": "Stateless",
+					"tooltip": ""
+				},
+				{
+					"id": 2,
+					"label": "Production / DR workloads in auto-scaling, self-healing architecture",
+					"tooltip": ""
+				},
+				{
+					"id": 3,
+					"label": "10 Hours Restore (unless impacting of the underlying service, then 2-hour restoration)",
+					"tooltip": ""
+				},
+				{
+					"id": 4,
+					"label": "No Proactive Management",
+					"tooltip": ""
+				},
+				{
+					"id": 5,
+					"label": "4 hours SLA on Urgent Security Patch's",
+					"tooltip": ""
+				}
+			]
+		},
+		{
+			"pid": "MSCLOUD_000002",
+			"name": "Essential",
+			"sn": "1",
+			"qty": 0,
+			"dataType": "number",
+			"label": "Essential",
+			"description": "",
+			"features": [
+				{
+					"id": 1,
+					"label": "Essential",
+					"tooltip": ""
+				},
+				{
+					"id": 2,
+					"label": "Non-critical business servers - development / tests, etc.",
+					"tooltip": ""
+				},
+				{
+					"id": 3,
+					"label": "10 Hours Restore, 10 Hours SLA on P1 events. (Clock stops for after-hours)",
+					"tooltip": ""
+				},
+				{
+					"id": 4,
+					"label": "Full Proactive Management",
+					"tooltip": ""
+				},
+				{
+					"id": 5,
+					"label": "12 hours SLA on Urgent Security Patch's",
+					"tooltip": ""
+				}
+			]
+		},
+		{
+			"pid": "MSCLOUD_000003",
+			"name": "Advanced",
+			"sn": "2",
+			"qty": 0,
+			"dataType": "number",
+			"label": "Advanced",
+			"description": "",
+			"features": [
+				{
+					"id": 1,
+					"label": "Advanced",
+					"tooltip": ""
+				},
+				{
+					"id": 2,
+					"label": "Less business critical servers - some development / test",
+					"tooltip": ""
+				},
+				{
+					"id": 3,
+					"label": "4 Hours Restore, 4 Hours SLA on P1 events. (Clock stops for after-hours)",
+					"tooltip": ""
+				},
+				{
+					"id": 4,
+					"label": "Full Proactive Management",
+					"tooltip": ""
+				},
+				{
+					"id": 5,
+					"label": "6 hours SLA on Urgent Security Patch's",
+					"tooltip": ""
+				}
+			]
+		},
+		{
+			"pid": "MSCLOUD_000004",
+			"name": "Premium",
+			"sn": "2",
+			"qty": 0,
+			"dataType": "number",
+			"label": "Premium",
+			"description": "",
+			"features": [
+				{
+					"id": 2,
+					"label": "Premium",
+					"tooltip": ""
+				},
+				{
+					"id": 1,
+					"label": "Mission critical production / business critical servers",
+					"tooltip": ""
+				},
+				{
+					"id": 3,
+					"label": "2 Hours Restore, 2 Hours SLA on P1 events.",
+					"tooltip": ""
+				},
+				{
+					"id": 4,
+					"label": "Full Proactive Management",
+					"tooltip": ""
+				},
+				{
+					"id": 5,
+					"label": "4 hours SLA on Urgent Security Patch's",
+					"tooltip": ""
+				}
+			]
+		}
+	],
+	"productAttributes": [
+		{
+			"id": 1,
+			"label": "Plans",
+			"tooltip": ""
+		},
+		{
+			"id": 2,
+			"label": "Suggested Workload",
+			"tooltip": ""
+		},
+		{
+			"id": 3,
+			"label": "Service Hours",
+			"tooltip": ""
+		},
+		{
+			"id": 4,
+			"label": "Monitoring",
+			"tooltip": ""
+		},
+		{
+			"id": 5,
+			"label": "Restore Time",
+			"tooltip": ""
+		}
+	]
+}

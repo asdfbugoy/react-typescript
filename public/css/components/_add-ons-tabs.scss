@@ -1,0 +1,27 @@
+.addon-mobile-card {
+    border: 2px $black;
+    background-repeat: no-repeat;
+    background-color: $white;
+    background-position: top right;
+    padding: 16px;
+    font-size:16px;
+}
+
+.addon-mobile-card-body-title{
+    border: 1px $very-light-gray;
+    background-repeat: no-repeat;
+    background-color: $very-light-gray;
+    background-position: top right;
+    padding:10px;
+    padding-left:15px;
+    font-size: 16px;
+}
+
+.addon-mobile-card-body{
+    border: 2px $black;
+    background-repeat: no-repeat;
+    background-color: $white;
+    background-position: top right;
+    padding: 10px;
+    padding-top:10px;
+}

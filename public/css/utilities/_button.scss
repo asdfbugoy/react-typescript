@@ -1,0 +1,162 @@
+.btn {
+	font-family: AvenirLTStd;
+	font-weight: bold;
+
+	&.btn-singtel-go-primary {
+		border: 2px solid $red;
+		border-radius: 20px;
+		background-color: $red;
+		color: $white;
+		//padding: .375rem 1.75rem;
+		padding: .4rem 1.75rem;
+		&:hover,
+		&.active,
+		&:focus,
+		&:active {
+			color: $red;
+			background-color: $white;
+		}
+		&.disabled,
+		&:disabled {
+			background-color: $red;
+			color: $white;
+		}
+	}
+	&.btn-singtel-go-primary-inverted {
+		border: 2px solid $red;
+		border-radius: 20px;
+		color: $red;
+		//padding: .375rem 1.75rem;
+		background-color: $white;
+		padding: .4rem 1.75rem;
+		&:hover,
+		&.active,
+		&:focus,
+		&:active {
+			background-color: $red;
+			color: $white;
+		}
+		&.disabled,
+		&:disabled {
+			background-color: $white;
+			color: $red;
+		}
+	}
+	&.btn-singtel-go-primary-black {
+		border: 2px solid $black;
+		border-radius: 20px;
+		color: $black;
+		//padding: .375rem 1.75rem;
+		background-color: $white;
+		padding: .4rem 1.75rem;
+		&:hover,
+		&.active,
+		&:focus,
+		&:active {
+			background-color: $black;
+			color: $white;
+		}
+		&.disabled,
+		&:disabled {
+			background-color: $white;
+			color: $black;
+		}
+	}
+	&.btn-singtel-go-primary-grey {
+		border: 2px solid $light-gray;
+		border-radius: 20px;
+		color: $black;
+		//padding: .375rem 1.75rem;
+		background-color: $white;
+		padding: .4rem 1.75rem;
+		&:hover,
+		&.active,
+		&:focus,
+		&:active {
+			background-color: $light-gray;
+			color: $black;
+		}
+		&.disabled,
+		&:disabled {
+			background-color: $white;
+			color: $light-gray;
+		}
+	}
+	&.btn-trash {
+		border: 2px solid $red;
+		border-radius: 50%;
+		background-color: $red;
+		color: $white;
+		position: relative;
+		top: 15px;
+		width: 25px;
+		height: 25px;
+		padding: 15px;
+		&:hover,
+		&.active,
+		&:focus,
+		&:active {
+			color: $red;
+			background-color: $white;
+		}
+	}
+	&.action-btn-trash {
+		border: 2px solid $red;
+		border-radius: 50%;
+		background-color: $red;
+		color: $white;
+		position: absolute;
+		top: 1px;
+		width: 25px;
+		height: 25px;
+		padding: 15px;
+		&:hover,
+		&.active,
+		&:focus,
+		&:active {
+			color: $red;
+			background-color: $white;
+		}
+	}
+	&.customer-info-btn-search {
+		color: $red;
+		background-color: $white;
+		position: absolute;
+		border: 2px solid $red;
+		border-radius: 50%;
+		margin-left: 120px;
+		border: 0;
+		bottom: 6px;
+		right: 25px;
+		width: 25px;
+		height: 25px;
+		&:hover,
+		&.active,
+		&:focus,
+		&:active {
+			color: $white;
+			background-color: $red;
+		}
+	}
+	&.btn-icon {
+		border: 2px solid $red;
+		border-radius: 50%;
+		background-color: $red;
+		color: $white;
+		padding: 3px 8px;
+		&:hover,
+		&.active,
+		&:focus,
+		&:active {
+			color: $red;
+			background-color: $white;
+		}
+	}
+}
+
+.btn-link {
+	color: $light-blue;
+	&:hover {
+		color: $light-blue;
+	}
+}

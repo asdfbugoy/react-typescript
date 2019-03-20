@@ -1,0 +1,131 @@
+[
+	{
+		"pid": "FcG5psUddeaT0c9t91JFEA==",
+		"sn": 1,
+		"name": "Office",
+		"package": "Medium Package",
+		"qty": 1,
+		"boms": [
+			{
+				"name": "Supply and install 200m 2 core Multi Mode Fiber + PVC conduit",
+				"subProductType": "Cabling",
+				"qty": 2
+			},
+			{
+				"name": "Supply and install 3M Cat 6A UTP Patch cord",
+				"subProductType": "Cabling",
+				"qty": 1
+			},
+			{
+				"name": "Meraki 1000Base SX Multi-Mode",
+				"subProductType": "Hardware",
+				"qty": 4
+			},
+			{
+				"name": "Meraki AC Power Cord for MX and MS (UK Plug)",
+				"subProductType": "Hardware",
+				"qty": 4
+			},
+			{
+				"name": "Meraki MR33 Cloud Managed AP",
+				"subProductType": "Hardware",
+				"qty": 7
+			},
+			{
+				"name": "Meraki MS120-8FP 1G L2 Cloud Managed 8x GigE 127W PoE Switch",
+				"subProductType": "Hardware",
+				"qty": 3
+			},
+			{
+				"name": "Meraki MX65 Cloud Managed Security Appliance",
+				"subProductType": "Hardware",
+				"qty": 1
+			},
+			{
+				"name": "Wide Angle MV12 Mini Dome HD Camera With 128GB Storage",
+				"subProductType": "Hardware",
+				"qty": 4
+			},
+			{
+				"name": "Onsite Installation (Office Hour) - MR33",
+				"subProductType": "Installation",
+				"qty": 7
+			},
+			{
+				"name": "Onsite Installation (Office Hour) - MS120-8FP",
+				"subProductType": "Installation",
+				"qty": 3
+			},
+			{
+				"name": "Onsite Installation (Office Hour) - MV12WE",
+				"subProductType": "Installation",
+				"qty": 4
+			},
+			{
+				"name": "Onsite Installation (Office Hour) - MX65",
+				"subProductType": "Installation",
+				"qty": 1
+			},
+			{
+				"name": "Meraki MR Enterprise License, 3YR",
+				"subProductType": "License / Software",
+				"qty": 7
+			},
+			{
+				"name": "Meraki MS120-8FP Enterprise License and Support, 3 Year",
+				"subProductType": "License / Software",
+				"qty": 3
+			},
+			{
+				"name": "Meraki MV Enterprise License and Support, 3YR",
+				"subProductType": "License / Software",
+				"qty": 4
+			},
+			{
+				"name": "Meraki MX65 Enterprise License and Support, 3YR",
+				"subProductType": "License / Software",
+				"qty": 1
+			},
+			{
+				"name": "Monthly - 8x5xNBD Onsite Maintenance - MR33",
+				"subProductType": "Maintenance",
+				"qty": 7
+			},
+			{
+				"name": "Monthly - 8x5xNBD Onsite Maintenance - MS120-8FP",
+				"subProductType": "Maintenance",
+				"qty": 3
+			},
+			{
+				"name": "Monthly - 8x5xNBD Onsite Maintenance - MV12WE",
+				"subProductType": "Maintenance",
+				"qty": 4
+			},
+			{
+				"name": "Monthly - 8x5xNBD Onsite Maintenance - MX65",
+				"subProductType": "Maintenance",
+				"qty": 1
+			},
+			{
+				"name": "Monthly  24x7 Proactive Device Monitoring and Management - MV12WE",
+				"subProductType": "Professional Service",
+				"qty": 4
+			},
+			{
+				"name": "Monthly 24x7 Proactive Device Monitoring and Management - MR33",
+				"subProductType": "Professional Service",
+				"qty": 7
+			},
+			{
+				"name": "Monthly 24x7 Proactive Device Monitoring and Management - MS120-8FP",
+				"subProductType": "Professional Service",
+				"qty": 3
+			},
+			{
+				"name": "Monthly 24x7 Proactive Device Monitoring and Management - MX65",
+				"subProductType": "Professional Service",
+				"qty": 1
+			}
+		]
+	}
+]

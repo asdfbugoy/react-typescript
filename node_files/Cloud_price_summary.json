@@ -1,0 +1,52 @@
+{
+    "currency": "SGD",
+    "grandTotal": 65485,
+    "upfrontCostTotal": 50000,
+    "priceSummary": [
+        {
+            "pid": "MSCLOUD_000003",
+            "name": "Advanced",
+            "upfrontCost": 0,
+            "monthlyCost": 140,
+            "quantity": 2,
+            "grandTotal": 280,
+            "currency": "SGD"
+        },
+        {
+            "pid": "MSCLOUD_000004",
+            "name": "Premium",
+            "upfrontCost": 0,
+            "monthlyCost": 200,
+            "quantity": 1,
+            "grandTotal": 200,
+            "currency": "SGD"
+        },
+        {
+            "pid": "MSCLOUD_000005",
+            "name": "Fabric Management",
+            "upfrontCost": 0,
+            "monthlyCost": 7500,
+            "quantity": 2,
+            "grandTotal": 15000,
+            "currency": "SGD"
+        },
+        {
+            "pid": "MIG",
+            "name": "AWS Migration",
+            "upfrontCost": 50000,
+            "monthlyCost": 0,
+            "quantity": 26,
+            "grandTotal": 50000,
+            "currency": "SGD"
+        },
+        {
+            "pid": "SEC",
+            "name": "Managed AWS Security",
+            "upfrontCost": 0,
+            "monthlyCost": 5,
+            "quantity": 1,
+            "grandTotal": 5,
+            "currency": "SGD"
+        }
+    ]
+}

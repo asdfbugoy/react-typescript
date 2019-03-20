@@ -1,0 +1,50 @@
+.card {
+    border: 0px none;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    // padding: 1px;
+    &.checked {
+        padding: 0px;
+        border: 2px solid $light-blue !important;
+    }
+    &.selected {
+        //padding: 0px;
+        background-color: $very-light-blue;
+        input {
+            background-color: $white;
+        }
+    }
+}
+a.card, button.card {
+    border-color: $dark-gray;
+    text-decoration: none;
+    padding: 1px;
+    color: $dark-blue;
+    i {
+        color: $light-gray;
+    }
+    &:hover {
+        padding: 0px;
+        border: 2px solid $light-blue !important;  
+    }
+    &.active {
+        padding: 0px;
+        border: 2px solid $light-blue !important;
+        i {
+            color: $red;
+        }
+    }
+    &.inactive {
+        // padding: 1px;
+        color: $light-gray;
+        border-color: $light-gray;
+        i {
+            color: $light-gray;
+        }
+        &:hover {
+            color: $light-gray;
+            border: 1px solid $light-gray !important;
+        }
+    }
+}

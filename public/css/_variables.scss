@@ -1,0 +1,54 @@
+$white: #ffffff;
+$red: #ed1a3d;
+
+$very-light-gray: #f3f3f3;
+$light-gray: #dddddd;
+$gray: #a2aaad;
+$dark-gray: #9b9b9b;
+
+$very-light-blue: #e8f6fd;
+$light-blue: #19a0d2;
+$blue: #0096b3;
+$dark-blue: #231F20; //#1d3444;
+
+$primary-text-color: #1d3444;
+
+$place-holder-color: $light-gray;
+
+// image folder
+$img: '../img';
+$index-banner: '#{$img}/index-banner.jpg';
+$index-banner-tablet: '#{$img}/index-banner-tablet.png';
+$index-banner-tablet-landscape: '#{$img}/index-banner-tablet-landscape.jpg';
+$index-banner-mobile: '#{$img}/index-banner-mobile.jpg';
+$index-benefits: '#{$img}/index-background3.jpg';
+$index-benefits-mobile: '#{$img}/index-background3-mobile.jpg';
+$index-benefits-tablet: '#{$img}/index-background3-tablet.jpg';
+$index-benefits-tablet-landscape: '#{$img}/index-banner-tablet-landscape.jpg';
+
+$default-font-size: 16px;
+$leading-text-size: 3.000rem; // 48px
+$title-text-size: 2.250rem; // 36px;
+$title-text-inside-size: 2.000rem; // 32px;
+$sub-title-text-size: 1.500rem; // 28px; // in design it was 24px;
+$special-text-size: 1.125rem; // 18px;
+
+// will use this in utilities/font-size. will be related to html classes to use, for easy short access;
+
+$h1: $leading-text-size;
+$h2: $title-text-size;
+$h3: $title-text-inside-size;
+$h4: $sub-title-text-size;
+$h5: $special-text-size;
+$p: $default-font-size;
+
+$s: 0.750rem; //12px // small text ex: fractions, exponents, pills, badges
+$vs: 0.625rem; //10px // very small text // currently, its only used by process status component. might placed it there
+
+// thinking of putting these on specific components or here? Temporary use for our backtrace/backtrack reference
+
+$price-text-size: 2.000rem !important; // currently not in use, luckily the h2 has this font-size in bootstrap
+$quantity-text-size: 1.375rem !important;
+$footer-text-size: $s !important;
+
+$default-font-family: '"Helvetica Neue",Helvetica,Arial,sans-serif';

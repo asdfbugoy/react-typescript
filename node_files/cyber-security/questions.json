@@ -1,0 +1,77 @@
+{
+    "maxProfileSize": 0,
+    "questions": [
+        {
+            "id": 39,
+            "sn": 1,
+            "question": "How many users do you want to protect?",
+            "dataType": "Dropdown",
+            "sourceList": [
+                {
+                    "value": "CS_U_1",
+                    "label": "10-25"
+                },
+                {
+                    "value": "CS_U_2",
+                    "label": "26-100"
+                },
+                {
+                    "value": "CS_U_3",
+                    "label": "101-200"
+                }
+            ],
+            "questionParts": []
+        },
+        {
+            "id": 40,
+            "sn": 2,
+            "question": "Is online presence critical to your business?",
+            "dataType": "Dropdown",
+            "sourceList": [
+                {
+                    "value": "CS_O_1",
+                    "label": "Critical"
+                },
+                {
+                    "value": "CS_O_2",
+                    "label": "Non-Critical"
+                }
+            ],
+            "questionParts": []
+        },
+        {
+            "id": 41,
+            "sn": 3,
+            "question": "Do you host your own web applications?",
+            "dataType": "Dropdown",
+            "sourceList": [
+                {
+                    "value": "CS_H_1",
+                    "label": "Yes"
+                },
+                {
+                    "value": "CS_H_2",
+                    "label": "No"
+                }
+            ],
+            "questionParts": []
+        },
+        {
+            "id": 42,
+            "sn": 4,
+            "question": "Do you have your own network infrastructure?",
+            "dataType": "Dropdown",
+            "sourceList": [
+                {
+                    "value": "CS_N_1",
+                    "label": "Yes"
+                },
+                {
+                    "value": "CS_N_2",
+                    "label": "No"
+                }
+            ],
+            "questionParts": []
+        }
+    ]
+}

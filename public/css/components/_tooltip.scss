@@ -1,0 +1,22 @@
+.tooltip {
+    .tooltip-inner {
+        box-shadow: 0px 0px 5px $dark-gray;
+        background-color: $white;
+        color: $dark-gray;
+        font-size: 13px;
+        font-family: 'AvenirLTStd'
+    }
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+    border-top-color: $light-gray;
+}
+.bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+    border-right-color: $light-gray;
+}
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+    border-bottom-color: $light-gray;
+}
+.bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+    border-left-color: $light-gray;
+}

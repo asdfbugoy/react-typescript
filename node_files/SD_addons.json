@@ -1,0 +1,152 @@
+{
+	"profiles": [
+		{
+			"pid": "FcG5psUddeaT0c9t91JFEA==",
+			"sn": 1,
+			"name": "Office",
+			"package": "Medium Package",
+			"qty": 1,
+			"selectedAddons": [
+				{
+					"id": "AP",
+					"type": "number",
+					"value": "0",
+					"quantity": 0,
+					"port": "1",
+					"options": [],
+					"disabled": false
+				},
+				{
+					"id": "CAM",
+					"type": "number",
+					"value": "0",
+					"quantity": 0,
+					"port": "1",
+					"options": [],
+					"disabled": false
+				},
+				{
+					"id": "SW",
+					"type": "dropdown",
+					"quantity": 1,
+					"options": [
+						{
+							"label": "No",
+							"port": "8"
+						},
+						{
+							"value": "MS120.24-P",
+							"label": "MS120.24-P",
+							"port": "24"
+						},
+						{
+							"value": "MS120-48FP",
+							"label": "MS120-48FP",
+							"port": "48"
+						}
+					],
+					"disabled": false
+				},
+				{
+					"id": "RSW",
+					"type": "checkbox",
+					"value": "false",
+					"quantity": 0,
+					"options": [],
+					"disabled": false
+				},
+				{
+					"id": "LIC",
+					"type": "checkbox",
+					"value": "false",
+					"quantity": 0,
+					"options": [],
+					"disabled": false
+				},
+				{
+					"id": "CAB",
+					"type": "number",
+					"value": "0",
+					"quantity": 0,
+					"options": [],
+					"disabled": false
+				},
+				{
+					"id": "INST",
+					"type": "checkbox",
+					"value": "false",
+					"quantity": 0,
+					"options": [],
+					"disabled": false
+				},
+				{
+					"id": "MAINT",
+					"type": "checkbox",
+					"value": "false",
+					"quantity": 0,
+					"options": [],
+					"disabled": false
+				}
+			],
+			"validationFormula": "( (#SW - 2 - 1) * 3 - (#AP + 1 + #CAM) ) / 3"
+		}
+	],
+	"addons": [
+		{
+			"id": "AP",
+			"name": "Additional Access Point",
+			"type": "number",
+			"group": "Additional Devices",
+			"options": []
+		},
+		{
+			"id": "CAM",
+			"name": "Security Camera",
+			"type": "number",
+			"group": "Additional Devices",
+			"options": []
+		},
+		{
+			"id": "SW",
+			"name": "Switch Upgrade",
+			"type": "dropdown",
+			"group": "Switch upgrade",
+			"options": []
+		},
+		{
+			"id": "RSW",
+			"name": "Resilience Switch",
+			"type": "checkbox",
+			"group": "Security and resilience",
+			"options": []
+		},
+		{
+			"id": "LIC",
+			"name": "Advanced Security License",
+			"type": "checkbox",
+			"group": "Security and resilience",
+			"options": []
+		},
+		{
+			"id": "CAB",
+			"name": "Extra Cabling per 200m (Fiber)",
+			"type": "number",
+			"group": "Additional Cabling",
+			"options": []
+		},
+		{
+			"id": "INST",
+			"name": "Installation after office hour (incl. PH & weekends)",
+			"type": "checkbox",
+			"group": "Installation and maintenance",
+			"options": []
+		},
+		{
+			"id": "MAINT",
+			"name": "Maintenance upgrade to 24x7x4",
+			"type": "checkbox",
+			"group": "Installation and maintenance",
+			"options": []
+		}
+	]
+}

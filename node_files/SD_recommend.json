@@ -1,0 +1,15 @@
+{
+	"uuid": "6b592a89-5672-4ee4-aada-dd01ddd1ef9e",
+	"profiles": [
+		{
+			"pid": "FcG5psUddeaT0c9t91JFEA==",
+			"sn": 1,
+			"name": "Office",
+			"package": "Medium Package",
+			"components": [
+				"Solution includes Network and Security Services, WiFi and traffic shaping, PoE switch",
+				"Managed services include 24x7 proactive device monitoring, onsite Office Hour installation, onsite maintenance 8x5xNBD and change management"
+			]
+		}
+	]
+}

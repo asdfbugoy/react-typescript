@@ -1,0 +1,19 @@
+.tabs {
+	.nav-tabs > .nav-link {
+		border: solid 1px $light-gray;
+		border-bottom: 0;
+		color: rgb(143, 155, 165);
+
+		&.active {
+			color: $black;
+		}
+	}
+
+	.tab-pane {
+		border: solid 1px $light-gray;
+		border-top: 0;
+		background-color: $white;
+		padding: 5px;
+		box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}

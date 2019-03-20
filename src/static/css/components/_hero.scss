@@ -1,0 +1,68 @@
+.hero {
+    height: 295px;
+    background-image: url('#{$img}/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+    @include media-breakpoint-down(xs) {
+        height: 120px;
+        margin-bottom: -45px;
+        padding-bottom: 45px;
+    }
+}
+.hero-tablet{
+    height:220px;
+    background-image: url('#{$img}/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+    @include media-breakpoint-down(xs) {
+        height: 120px;
+        margin-bottom: -45px;
+        padding-bottom: 45px;
+    }
+}
+.hero-tablet-title{
+    font-family: museoLight;
+    font-size: 42px;
+}
+
+.hero-mobile{
+    height:108px;
+    background-image: url('#{$img}/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+    @include media-breakpoint-down(xs) {
+        height: 120px;
+        margin-bottom: -45px;
+        padding-bottom: 45px;
+    }
+}
+
+.hero-mobile-title{
+    font-family: museoLight;
+    font-size: 20px;
+}
+
+.hero-error{
+    background-color: #E9EEF1;
+    height: 295px;
+    background-image: url('#{$img}/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+    @include media-breakpoint-down(xs) {
+        height: 120px;
+        margin-bottom: -45px;
+        padding-bottom: 45px;
+    }
+}

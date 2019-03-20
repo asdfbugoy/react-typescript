@@ -1,0 +1,19 @@
+{
+	"name": "MS-CLOUD-FBR",
+	"title": "Fabric Management",
+	"description": "A service that manages and performs configurations for AWS VPCs. Specified computer services are also included: networking and content delivery services, management tools and security/identity/compliance tools in the VPC environment.",
+	"displayType": "list",
+	"products": [
+		{
+			"pid": "MSCLOUD_000005",
+			"name": "Fabric Management",
+			"sn": "2",
+			"qty": 0,
+			"dataType": "number",
+			"label": "Fabric Management",
+			"description": "",
+			"features": []
+		}
+	],
+	"productAttributes": []
+}

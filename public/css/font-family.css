@@ -1,0 +1,42 @@
+/********* FONTS: Museo family *******/
+@font-face {
+  font-family: "MuseoLight";
+  font-style: "normal";
+  font-weight: 100;
+  src: url("fonts/museo/Museo-100.eot");
+  src: url("fonts/museo/Museo-100.eot?#iefix") format("embedded-opentype"), url("fonts/museo/Museo-100.woff2") format("woff2"), url("fonts/museo/Museo-100.woff") format("woff"), url("fonts/museo/Museo-100.ttf") format("truetype"); }
+
+/* Museo-100 */
+@font-face {
+  font-family: "Museo";
+  font-style: "normal";
+  font-weight: 300;
+  src: url("fonts/museo/Museo-300.eot");
+  src: url("fonts/museo/Museo-300.eot?#iefix") format("embedded-opentype"), url("fonts/museo/Museo-300.woff2") format("woff2"), url("fonts/museo/Museo-300.woff") format("woff"), url("fonts/museo/Museo-300.ttf") format("truetype"); }
+
+/* Museo-300 */
+@font-face {
+  font-family: "MuseoMedium";
+  font-style: "normal";
+  font-weight: 500;
+  src: url("fonts/museo/Museo-500.eot");
+  src: url("fonts/museo/Museo-500.eot?#iefix") format("embedded-opentype"), url("fonts/museo/Museo-500.woff2") format("woff2"), url("fonts/museo/Museo-500.woff") format("woff"), url("fonts/museo/Museo-500.ttf") format("truetype"); }
+
+/* Museo-500 */
+/********* FONTS: Avenir family *******/
+@font-face {
+  font-family: "AvenirLTStd";
+  font-style: "normal";
+  font-weight: 300;
+  src: url("fonts/avenir/AvenirLTStd-Book.eot");
+  src: url("fonts/avenir/AvenirLTStd-Book.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLTStd-Book.woff2") format("woff2"), url("fonts/avenir/AvenirLTStd-Book.woff") format("woff"), url("fonts/avenir/AvenirLTStd-Book.ttf") format("truetype"); }
+
+/* AvenirLTStd-Book */
+@font-face {
+  font-family: "AvenirLTStd";
+  font-style: "bold";
+  font-weight: 700;
+  src: url("fonts/avenir/AvenirLTStd-Heavy.eot");
+  src: url("fonts/avenir/AvenirLTStd-Heavy.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLTStd-Heavy.woff2") format("woff2"), url("fonts/avenir/AvenirLTStd-Heavy.woff") format("woff"), url("fonts/avenir/AvenirLTStd-Heavy.ttf") format("truetype"); }
+
+/* AvenirLTStd-Heavy */

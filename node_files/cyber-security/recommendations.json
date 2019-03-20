@@ -1,0 +1,314 @@
+[
+    {
+        "productType": "User Protection",
+        "products": [
+            {
+                "pid": "CYBERSEC_0000001",
+                "title": "Business Protect Web",
+                "description": "Secure your Internet access with Business Protect Web via anti-malware and advanced threat protection, URL filtering, and Application controls.",
+                "qty": 1,
+                "dataType": "number",
+                "selectable":true,
+                "isSelected": false,
+                "questions": [{
+                    "id": 1,
+                    "question": "Would you like to have any installation to be done?",
+                    "dataType": "dropdown",
+                    "sourceList": [
+                        {
+                            "value": "OFF-HR",
+                            "label":"During Office Hours",
+                            "tooltip": "",
+                            "selectable":true,
+                            "isSelected": false,
+                            "optionList": []
+                        },
+                        {
+                            "value": "AFT-OFF-HR",
+                            "label":"After Office Hours",
+                            "tooltip": "",
+                            "selectable":true,
+                            "isSelected": false,
+                            "optionList": []
+                        },
+                        {
+                            "value": "No-INST",
+                            "label":"No Installation",
+                            "tooltip": "",
+                            "selectable":true,
+                            "isSelected": false,
+                            "optionList": []
+                        }
+                    ]
+                }]
+            },
+            {
+                "pid": "CYBERSEC_0000002",
+                "title": "Business Protect End-Point (EP)",
+                "description": "With Business Protect EP, it provides Anti-Virus and Malware; Abnormal System and Application Behaviour Analysis Protection for your PC / Laptop.",
+                "qty": 1,
+                "dataType": "number",
+                "selectable":true,
+                "isSelected": false,
+                "questions": [{
+                    "id": 1,
+                    "question": "Would you like to have any installation to be done?",
+                    "dataType": "dropdown",
+                    "sourceList": [
+                        {
+                            "value": "OFF-HR",
+                            "label":"During Office Hours",
+                            "tooltip": "",
+                            "selectable":true,
+                            "isSelected": false,
+                            "optionList": []
+                        },
+                        {
+                            "value": "AFT-OFF-HR",
+                            "label":"After Office Hours",
+                            "tooltip": "",
+                            "selectable":true,
+                            "isSelected": false,
+                            "optionList": []
+                        },
+                        {
+                            "value": "No-INST",
+                            "label":"No Installation",
+                            "tooltip": "",
+                            "selectable":true,
+                            "isSelected": false,
+                            "optionList": []
+                        }
+                    ]
+                }]
+            },
+            {
+                "pid": "CYBERSEC_0000003",
+                "title": "Trustwave Secured Email Gateway (SEG)",
+                "description": "Trustwave SEG provides protection at the internet level, eliminating threats before they reach the network and provides centralized security in distributed environments.",
+                "qty": 1,
+                "dataType": "number",
+                "isSelected": false,
+                "questions": [{
+                    "id": 1,
+                    "question": "Are the users currently using Microsoft Office 365",
+                    "dataType": "dropdown",
+                    "sourceList": [
+                        {
+                            "value": "SEG-O365-PKG",
+                            "label": "Yes",
+                            "tooltip": "",
+                            "selectable":true,
+                            "isSelected": false,
+                            "optionList": [
+                                {    
+
+                                    "value": "ADDON-SANDBOX",
+                                    "label": "Sandbox - Malware Analysis",
+                                    "tooltip": "",
+                                    "description": "",
+                                    "selectable":true,
+                                    "isSelected": false
+                                },
+                                {
+
+                                    "value": "ADDON-ENCRYPT",
+                                    "label": "Trustwave Secure Email Encryption Package",
+                                    "tooltip": "",
+                                    "description": "",
+                                    "selectable":true,
+                                    "isSelected": false
+
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "value": "SEG-SP-PKG",
+                            "label": "No",
+                            "tooltip": "",
+                            "selectable":true,
+                            "isSelected": false,
+                            "optionList": [
+                                {    
+
+                                    "value": "ADDON-DLP",
+                                    "label": "Data Loss Protection",
+                                    "tooltip": "",
+                                    "description": "",
+                                    "selectable":true,
+                                    "isSelected": false
+                                },
+                                {
+
+                                    "value": "ADDON-ACCPTUSE",
+                                    "label": "Acceptable Use",
+                                    "tooltip": "",
+                                    "description": "",
+                                    "selectable":true,
+                                    "isSelected": false
+
+                                }
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "question": "Addons",
+                    "dataType": "dropdown",
+                    "sourceList": [
+                        {    
+                            "value": "ADDON-SANDBOX",
+                            "label": "Sandbox - Malware Analysis",
+                            "tooltip": "",
+                            "description": "",
+                            "selectable":true,
+                            "isSelected": false
+                        },
+                        {
+                            "value": "ADDON-ENCRYPT",
+                            "label": "Trustwave Secure Email Encryption Package",
+                            "tooltip": "",
+                            "description": "",
+                            "selectable":true,
+                            "isSelected": false
+                        }
+                    ]
+                }]
+            },
+            {
+                "pid": "CYBERSEC_0000004",
+                "title": "Security Awareness Education (SAE) + Phishing",
+                "description": "SAE offers role-based security awareness content. Courses are compromised of lessons targeted for common organizational functions and many include animations and short videos to improve knowledge retention.",
+                "qty": 1,
+                "dataType": "number",
+                "selectable":true,
+                "isSelected": false,
+                "questions": []
+            }
+        ]
+    },
+    {
+        "productType": "Network Protection",
+        "products": [
+            {
+                "pid": "CYBERSEC_0000005",
+                "title": "DDoS",
+                "description": "DDoS protection offers you end-to-end managed DDoS protection for corporate network, web services and data centres. It also allows you to stay ahead of threats in real-time, 24/7 proactive monitoring or internet traffic and notifies before abnormalities are detected. Ensures only legitimate traffic is forwarded to your router.",
+                "qty": 1,
+                "dataType": "checkbox",
+                "selectable":true,
+                "isSelected": false,
+                "questions": [
+                    {
+                        "id": 3,
+                        "question": "Select your existing SingNet Circuit:",
+                        "dataType": "dropdown",
+                        "sourceList": [
+                            {
+                                "value": "eLite",
+                                "label": "eLite",
+                                "tooltip": "",
+                                "selectable":true,
+                                "isSelected": false,
+                                "optionList": [
+                                    {
+                                        "value": "5 mbps",
+                                        "label": "5 mbps",
+                                        "tooltip": "",
+                                        "description": "",
+                                        "selectable":true,
+                                        "isSelected": false
+                                    },
+                                    {
+                                        "value": "10 mbps",
+                                        "label": "10 mbps",
+                                        "tooltip": "",
+                                        "description": "",
+                                        "selectable":true,
+                                        "isSelected": false
+                                    }
+                                ]
+                            },
+                            {
+                                "value": "Metro Ethernet",
+                                "label": "Metro Ethernet",
+                                "tooltip": "",
+                                "selectable":true,
+                                "isSelected": false,
+                                "optionList": [
+                                    {
+                                        "value": "10 mbps",
+                                        "label": "10 mbps",
+                                        "tooltip": "",
+                                        "description": "",
+                                        "selectable":true,
+                                        "isSelected": false
+                                    },
+                                    {
+                                        "value": "20 mbps",
+                                        "label": "20 mbps",
+                                        "tooltip": "",
+                                        "description": "",
+                                        "selectable":true,
+                                        "isSelected": false
+                                    }
+                                ]
+                            },
+                            {
+                                "value": "Ethernet",
+                                "label": "Ethernet",
+                                "tooltip": "",
+                                "selectable":true,
+                                "isSelected": false,
+                                "optionList": [
+                                    {
+                                        "value": "10 mbps",
+                                        "label": "10 mbps",
+                                        "tooltip": "",
+                                        "description": "",
+                                        "selectable":true,
+                                        "isSelected": false
+                                    },
+                                    {
+                                        "value": "20 mbps",
+                                        "label": "20 mbps",
+                                        "tooltip": "",
+                                        "description": "",
+                                        "selectable":true,
+                                        "isSelected": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "question": "Bandwidth Selection:",
+                        "dataType": "combobox",
+                        "sourceList": [
+                            {
+                                "value": "5 mbps",
+                                "label":"5 mbps",
+                                "tooltip": "",
+                                "selectable":true,
+                                "isSelected": false,
+                                "optionList": []
+                            },
+                            {
+                                "value": "10 mbps",
+                                "label":"10 mbps",
+                                "tooltip": "",
+                                "selectable":true,
+                                "isSelected": false,
+                                "optionList": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

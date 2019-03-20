@@ -1,0 +1,49 @@
+{
+	"product": "SD LAN",
+	"profiles": [
+		{
+			"name": "Retail Outlet",
+			"qty": 5,
+			"answers": [
+				{
+					"questionId": 21,
+					"answer": "VT_RO"
+				},
+				{
+					"questionId": 22,
+					"answer": "NOU_3"
+				},
+				{
+					"questionId": 23,
+					"answer": "NOF_1"
+				},
+				{
+					"questionId": 24,
+					"answer": "FS_2"
+				}
+			]
+		},
+		{
+			"name": "Office",
+			"qty": 1,
+			"answers": [
+				{
+					"questionId": 21,
+					"answer": "VT_O"
+				},
+				{
+					"questionId": 22,
+					"answer": "NOU_1"
+				},
+				{
+					"questionId": 23,
+					"answer": "NOF_1"
+				},
+				{
+					"questionId": 24,
+					"answer": "FS_1"
+				}
+			]
+		}
+	]
+}

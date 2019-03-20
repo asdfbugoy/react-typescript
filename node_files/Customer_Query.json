@@ -1,0 +1,17 @@
+[
+	{
+		"accountId": "VFCWoD5iPI6+Bb8CHUzCoQ==",
+		"accountName": "COFFEE SHOP @HUB",
+		"uen": "ST000682",
+		"blacklistedInd": false,
+		"countryName": "SINGAPORE",
+		"primaryAddress": {
+			"postalCode": "569141",
+			"blockNo": "",
+			"streetName": "5 Ang Mo Kio Street 62",
+			"buildingName": "",
+			"unitNo": "",
+			"country": ""
+		}
+	}
+]

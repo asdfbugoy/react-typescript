@@ -1,0 +1,105 @@
+.process-status-sm {
+    .bar {
+        height: 1px;
+        width: 15px;
+    }
+    .circle {
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+    }
+}
+
+.process-status {
+    margin-bottom: 20px;
+    .item {
+        position: relative;
+        .title {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            color: $gray;
+            padding: 0px 5px;
+        }
+        .bar {
+            height: 5px;
+            width: 100px;
+            background-color: $light-gray;
+            //background-color: transparent;
+        }
+        .circle {
+            border-radius: 50%;
+            border: 3px solid $light-gray;
+            color: $gray;
+            height: 48px;
+            width: 48px;
+            height: 20px;
+            width: 20px;
+            //line-height: 48px;
+            //text-align: center;
+            background-color: $white;
+            font-size: $p;
+            font-weight: bold;   
+        }
+        &:first-child {
+            .bar:first-child {
+                background-color: transparent;
+            }
+        }
+        &:last-child {
+            .bar {
+                &:last-child {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    .done {
+        .bar {
+            background-color: $red;
+        }
+        .circle {
+            color: $red;
+            background-color: $red;
+            border: 3px solid $red;
+        }
+    }
+    .active {
+        .bar {
+            background-color: $red;
+        }
+        .circle {
+            color: $white;
+            background-color: $white;
+            border: 3px solid $red;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        .item {
+            .bar {
+                width: 70px;
+            }
+            .circle {
+                height: 15px;
+                width: 15px;
+                //line-height: 18px;
+                //font-size: $s; // for Numbers but currently, its been disabled
+            }
+            .title {
+                //margin-top: 20px;
+                font-size: 12px;
+                line-height:15px;
+            }
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        .item {
+            .bar {
+                width: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+[
+	{
+		"id": "1",
+		"otc": 0,
+		"rc": 76,
+		"currency": "SGD",
+		"default": true
+	},
+	{
+		"id": "2",
+		"otc": 288,
+		"rc": 68,
+		"currency": "SGD",
+		"default": false
+	},
+	{
+		"id": "3",
+		"otc": 576,
+		"rc": 60,
+		"currency": "SGD",
+		"default": false
+	},
+	{
+		"id": "4",
+		"otc": 900,
+		"rc": 51,
+		"currency": "SGD",
+		"default": false
+	},
+	{
+		"id": "5",
+		"otc": 1188,
+		"rc": 43,
+		"currency": "SGD",
+		"default": false
+	},
+	{
+		"id": "6",
+		"otc": 1476,
+		"rc": 35,
+		"currency": "SGD",
+		"default": false
+	}
+]

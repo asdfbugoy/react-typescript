@@ -1,0 +1,55 @@
+{
+	"uuid": "8fdefb39-dd45-4421-bc46-617916463149",
+	"accountId": "VFCWoD5iPI6+Bb8CHUzCoQ==",
+	"accountUEN": "ST000682",
+	"accountName": "COFFEE SHOP @HUB",
+	"primaryAddress": {
+		"postalCode": "569141",
+		"blockNo": "5",
+		"streetName": "ANG MO KIO STREET 62",
+		"buildingName": "NCS HUB",
+		"country": "SINGAPORE"
+	},
+	"correspondenceAddressSameWithPrimary": true,
+	"correspondenceAddress": {
+		"postalCode": "569141",
+		"blockNo": "5",
+		"streetName": "ANG MO KIO STREET 62",
+		"buildingName": "NCS HUB",
+		"country": "SINGAPORE"
+	},
+	"contactDetail": {
+		"firstName": "John",
+		"lastName": "White",
+		"contactEmail": "john.c.white@foodhub.com",
+		"contactNumber": "65552345",
+		"mobileNumber": "98764567"
+	},
+	"authorizedContactSameWithContact": true,
+	"authorizedContactDetail": {
+		"firstName": "John",
+		"lastName": "White",
+		"contactEmail": "john.c.white@foodhub.com",
+		"contactNumber": "65552345",
+		"mobileNumber": "98764567"
+	},
+	"profiles": [
+		{
+			"pid": "J6X56eY9f7EStbQizptMxQ==",
+			"sn": 1,
+			"name": "Office",
+			"package": "Medium Package",
+			"qty": 1,
+			"siteAddresses": [
+				{
+					"postalCode": "239732",
+					"blockNo": "000000",
+					"streetName": "EXETER ROAD",
+					"buildingName": "COMCENTRE PODIUM 1",
+					"unitNo": "#01-01",
+					"country": "SINGAPORE"
+				}
+			]
+		}
+	]
+}

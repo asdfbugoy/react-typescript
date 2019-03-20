@@ -1,0 +1,222 @@
+html,
+body {
+	font-family: 'AvenirLTStd';
+	font-size: $default-font-size;
+	color: $primary-text-color;
+}
+
+a {
+	color: $light-blue;
+	&:hover {
+		color: $light-blue;
+	}
+}
+
+// COLORS
+.white {
+	color: $white;
+}
+.red {
+	color: $red;
+}
+.gray {
+	color: $gray;
+}
+.blue {
+	color: $blue;
+}
+
+.light-gray {
+	color: $light-gray;
+}
+.gray {
+	color: $gray;
+}
+.dark-gray {
+	color: $dark-gray;
+}
+
+.light-blue {
+	color: $light-blue;
+}
+.blue {
+	color: $blue;
+}
+.dark-blue {
+	color: $dark-blue;
+}
+
+// BORDER-COLORS
+.border-light-gray {
+	border-color: $light-gray !important;
+}
+.border-gray {
+	border-color: $gray !important;
+}
+.border-dark-gray {
+	border-color: $dark-gray !important;
+}
+
+// SHADOWS
+.shadow {
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+// LINE-HEIGHTS
+.line-height-35 {
+	line-height: 35px;
+}
+
+// BACKGROUND-COLORS
+.background-very-light-gray {
+	background-color: $very-light-gray;
+}
+.background-light-gray {
+	background-color: $light-gray;
+}
+.background-very-light-blue {
+	background-color: $very-light-blue;
+}
+.background-transparent {
+	background-color: transparent;
+}
+.background-red {
+	background-color: $red
+}
+ul.custom-list {
+	li {
+		//line-height: 45px;
+		margin-bottom: 20px;
+		color: $red;
+		span {
+			color: $primary-text-color;
+		}
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
+}
+
+.progress {
+	background-color: transparent;
+	border: 1px solid $gray;
+	border-radius: 32px;
+	.progress-bar {
+		background-color: $red;
+		border-radius: 32px;
+	}
+}
+
+.addons-product {
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 141px;
+	width: 100%;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.bg-img {
+	background-image: url('#{$img}/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	@include media-breakpoint-down(xs) {
+	}
+}
+
+.list-carousel-img {
+	opacity: 0;
+	height: 0px;
+	position: absolute;
+	transition: opacity 1s ease-in-out;
+	&.active {
+		position: inherit;
+		opacity: 1;
+		height: auto;
+		//width: auto;
+	}
+}
+
+::placeholder {
+	color: $gray !important;
+}
+
+// Warning using @extend have some negative side effects temporary using this but if css file will be big, i might disabled this
+// Typography settings;
+
+.leading-text {
+	@extend .h1, .museoLight;
+}
+.title-text {
+	@extend .h2, .museo;
+}
+.title-text-inside {
+	@extend .h3, .museo;
+}
+.sub-title-text {
+	@extend .h4, .museo;
+}
+.special-text {
+	@extend .h5;
+}
+
+.price-summary {
+	.content {
+		margin: 0px -1px;
+		.card {
+			border-radius: 0px;
+		}
+		@include media-breakpoint-down(sm) {
+			margin: auto;
+			.card {
+				border-radius: 4px;
+				.card-body {
+					//padding: 10px;
+				}
+			}
+		}
+	}
+}
+
+.text-shadow-white {
+	text-shadow: 0px 0px 3px $white;
+}
+
+.text-shadow-black {
+	text-shadow: 0px 0px 3px $black;
+}
+
+.date-picker {
+	.calendar-icon {
+		top: 10px;
+		right: 15px;
+	}
+	.react-datepicker-wrapper {
+		display: block !important;
+		.react-datepicker__input-container {
+			display: block !important;
+			.form-control {
+				background-color: transparent;
+				padding-right: 35px;
+			}
+			input::-ms-clear {
+				display: none;
+				width: 0;
+				height: 0;
+			}
+			input::-ms-reveal {
+				display: none;
+				width: 0;
+				height: 0;
+			}
+		}
+	}
+}
+
+.no-underline:hover {
+	text-decoration: none;
+}

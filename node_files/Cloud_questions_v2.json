@@ -1,0 +1,31 @@
+{
+    "maxProfileSize": 10,
+    "questions": {
+        "id": 24,
+        "sn": 6,
+        "question": "What would you like to manage?",
+        "dataType": "Dropdown",
+        "tooltip": "",
+        "image": "",
+        "label": "What would you like to manage?",
+        "selectable": true,
+        "sourceList": [
+            {
+                "value": "MS-CLOUD-VM",
+                "label": "Virtual Machine",
+                "tooltip": "Virtual Machine",
+                "image": "",
+                "selectable": true,
+                "isSelected": false
+            },
+            {
+                "value": "MS-CLOUD-FBR",
+                "label": "Fabric",
+                "tooltip": "Fabric",
+                "image": "",
+                "selectable": true,
+                "isSelected": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+ol.carousel-indicators {
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+ }
+ 
+ ol.carousel-indicators li {
+    background: $very-light-gray;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    width:60px;
+
+    &.active{
+        background: $red;
+    }
+ }
+ 
+ ol.carousel-indicators li.active {
+    background: $red;
+ }
+
+ .mobile-carousel-indicator{
+    bottom: 30px; 
+    position: absolute;
+ }
+ .mobile-advanced-feature-carousel{
+     height:auto;
+ }
+.carousel-item{
+    .advanced-feature-carousel{
+        height:200px;
+        opacity: 1;
+        transition: opacity 300ms linear;
+    }
+}
+
+.carousel-navigator{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+ .carousel-navigator-shadow{
+    text-shadow: 0px 0px 3px #000;
+ }
+ 

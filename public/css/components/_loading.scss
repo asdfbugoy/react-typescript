@@ -1,0 +1,71 @@
+// Set the Stage
+// body { 
+//    background: #E9E9E9;
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+// }
+
+.loading {
+    // .wrapper {
+    //   margin: 30px;
+    //   padding: 30px;
+    //   background: #fff;
+    //   width: 100%;
+    //   height: 100%;
+    //   display: flex;
+    //   flex-direction: column;
+    // }
+
+    // .wrapper-cell {
+    //    display: flex;
+    //    margin-bottom: 30px;
+    // }
+
+    // Animation
+    @keyframes placeHolderShimmer{
+        0%{
+            background-position: -100% 0
+        }
+        100%{
+            background-position: 100% 0
+        }
+    }
+
+    .animated-background {
+        animation-duration: 1.25s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-name: placeHolderShimmer;
+        animation-timing-function: linear;
+        background: $very-light-gray;
+        background: linear-gradient(to right, $very-light-gray 8%, $white 18%, $very-light-gray 33%);
+        background-size: 800px 104px;
+        height: 96px;
+        position: relative;
+    }
+
+    // Page Elements
+    .image {
+    height: 60px;
+    width: 60px;
+    //  background: #F6F6F6;
+    @extend .animated-background;
+    }
+
+    .text {
+    //margin-left: 20px
+    }
+
+    .text-line {
+        height: 10px;
+        
+        //width: 230px;
+        //background: #F6F6F6;
+        margin: 4px 0;
+        @include media-breakpoint-down(xs) {
+            height: 5px;
+        }
+        @extend .animated-background;
+    }
+}

@@ -1,0 +1,104 @@
+[
+	{
+		"package": "Router Package",
+		"qty": 1,
+		"boms": [
+			{
+				"name": "Meraki MX65 Cloud Managed Security Appliance",
+				"subProductType": "Hardware",
+				"qty": 1
+			},
+			{
+				"name": "Monthly 24x7 Proactive Device Monitoring and Management - MX65",
+				"subProductType": "Professional Service",
+				"qty": 1
+			},
+			{
+				"name": "Meraki MX65 Enterprise License and Support, 3YR",
+				"subProductType": "License / Software",
+				"qty": 1
+			},
+			{
+				"name": "Meraki AC Power Cord for MX and MS (UK Plug)",
+				"subProductType": "Hardware",
+				"qty": 1
+			},
+			{
+				"name": "Supply and install 3M Cat 6A UTP Patch cord",
+				"subProductType": "Cabling",
+				"qty": 1
+			},
+			{
+				"name": "Monthly - 8x5xNBD Onsite Maintenance - MX65",
+				"subProductType": "Maintenance",
+				"qty": 1
+			},
+			{
+				"name": "Onsite Installation (Office Hour) - MX65",
+				"subProductType": "Installation",
+				"qty": 1
+			}
+		]
+	},
+	{
+		"package": "AP and Switch Package",
+		"qty": 1,
+		"boms": [
+			{
+				"name": "Meraki MR33 Cloud Managed AP",
+				"subProductType": "Hardware",
+				"qty": 2
+			},
+			{
+				"name": "Meraki MS120-8FP 1G L2 Cloud Managed 8x GigE 127W PoE Switch",
+				"subProductType": "Hardware",
+				"qty": 2
+			},
+			{
+				"name": "Monthly 24x7 Proactive Device Monitoring and Management - MR33",
+				"subProductType": "Professional Service",
+				"qty": 2
+			},
+			{
+				"name": "Monthly 24x7 Proactive Device Monitoring and Management - MS120-8FP",
+				"subProductType": "Professional Service",
+				"qty": 2
+			},
+			{
+				"name": "Meraki MR Enterprise License, 3YR",
+				"subProductType": "License / Software",
+				"qty": 2
+			},
+			{
+				"name": "Meraki MS120-8FP Enterprise License and Support, 3 Year",
+				"subProductType": "License / Software",
+				"qty": 2
+			},
+			{
+				"name": "Meraki AC Power Cord for MX and MS (UK Plug)",
+				"subProductType": "Hardware",
+				"qty": 2
+			},
+			{
+				"name": "Monthly - 8x5xNBD Onsite Maintenance - MR33",
+				"subProductType": "Maintenance",
+				"qty": 2
+			},
+			{
+				"name": "Monthly - 8x5xNBD Onsite Maintenance - MS120-8FP",
+				"subProductType": "Maintenance",
+				"qty": 2
+			},
+			{
+				"name": "Onsite Installation (Office Hour) - MR33",
+				"subProductType": "Installation",
+				"qty": 2
+			},
+			{
+				"name": "Onsite Installation (Office Hour) - MS120-8FP",
+				"subProductType": "Installation",
+				"qty": 2
+			}
+		]
+	}
+]
